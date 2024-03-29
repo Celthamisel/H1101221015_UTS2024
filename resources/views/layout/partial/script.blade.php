@@ -15,9 +15,9 @@
     new Chart(ctx1, {
       type: "line",
       data: {
-        labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        labels: ["2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
         datasets: [{
-          label: "Mobile apps",
+          label: "Jumlah Pegawai",
           tension: 0.4,
           borderWidth: 0,
           pointRadius: 0,
@@ -25,7 +25,7 @@
           backgroundColor: gradientStroke1,
           borderWidth: 3,
           fill: true,
-          data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+          data: [567, 542, 719, 802, 887, 828, 901, 1210, 1328],
           maxBarThickness: 6
 
         }],
